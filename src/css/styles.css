@@ -219,7 +219,7 @@ h3 {
   grid-column: 1/6;
   margin: 61px;
 }
-@media screen and (man-width: 600px) {
+@media screen and (min-width: 600px) {
   .welcome {
     height: 1305px;
   }
@@ -227,14 +227,15 @@ h3 {
     height: 1000px;
     width: 100%;
   }
+
+  .gridContainer {
+    width: 100%;
+  }
 }
 .signup {
   grid-column: 1/6;
 }
 @media screen and (max-width: 788px) {
-  .div1 {
-    /* margin-top: 200px; */
-  }
 }
 .div1 {
   gap: 7px;
@@ -257,7 +258,6 @@ h3 {
   margin: 0px 20px 40px 20px;
   width: auto;
 }
-
 .attractionImg > div {
   font-size: 30px;
   padding: 20px 0px;
